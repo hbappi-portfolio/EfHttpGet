@@ -21,7 +21,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-		implementation 'com.github.User:Repo:Tag'
+		implementation 'com.github.User:Repo:[![](https://jitpack.io/v/hbappi/EfHttpGet.svg)](https://jitpack.io/#hbappi/EfHttpGet)'
 	}
 That's it! The first time you request a project JitPack checks out the code, builds it and serves the build artifacts (jar, aar).
 
