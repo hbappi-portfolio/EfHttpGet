@@ -29,4 +29,19 @@ If the project doesn't have any GitHub Releases you can use the short commit has
 
 
 now call
-   EfHttpGet.
+    
+    EfHttpGet.stringResponse(url, new EfResponseListener() {
+            @Override
+            public void onSuccess(String response) {
+	    	//you got server response as string. yahoo
+            }
+
+            @Override
+            public void onError(String errorResponse) {
+	    	//something wrong, error response is in string format
+            }
+        });
+
+Youtube Video: https://www.youtube.com/watch?v=FAVWvT1RiYg
+
+my linkedIn: https://www.linkedin.com/in/hbappi/
